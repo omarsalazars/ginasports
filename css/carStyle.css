@@ -1,0 +1,122 @@
+@media only screen and (max-width: 575.98px) {
+	.carrito{
+		height: 100%;
+		width: 100%;
+	border: 0;
+	margin-right: 0;
+	z-index: 100;
+	background-color: whitesmoke;
+	padding: 2.5%;
+	overflow-y: scroll;
+	display: none;
+	}
+}
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+	.carrito{
+		height: 100%;
+		width: 50%;
+	border: 0;
+	margin-right: 0;
+	margin-left: 50%;
+	z-index: 100;
+	background-color: whitesmoke;
+	padding: 2.5%;
+	overflow-y: scroll;
+	display: none;
+	}
+	.comprado {
+	margin: 5% 0;
+	padding: 0;
+	width: 100%;
+	}
+
+	.cardcar {
+		font-size: small;
+		width: 100%;
+		margin: 0;
+	}
+
+	.cardcar .card-body {
+		background-color: whitesmoke;
+		position: absolute;
+		opacity: 0;
+		width: 100%;
+		margin-top: 30%;
+		margin-bottom: 30%;
+		height: 40%;
+	}
+
+	.comprado:hover img {
+		opacity: 0.3;
+	}
+
+	.comprado:hover .card-body {
+		opacity: 1;
+	}
+
+	.card:hover img {
+		-webkit-transform: scale(1);
+		    -ms-transform: scale(1);
+		        transform: scale(1);
+	}
+
+	.totalcompra {
+		margin-top: 5%;
+		padding: 0;
+	}
+}
+@media only screen and (min-width: 768px){
+	.carrito {
+	height: 100%;
+	width: 30%;
+	margin-left: 70%;
+	border: 0;
+	margin-right: 0;
+	z-index: 100;
+	background-color: whitesmoke;
+	padding: 2.5%;
+	overflow-y: scroll;
+	display: none;
+	}
+
+	.comprado {
+	margin: 5% 0;
+	padding: 0;
+	width: 100%;
+	}
+
+	.cardcar {
+		font-size: small;
+		width: 100%;
+		margin: 0;
+	}
+
+	.cardcar .card-body {
+		background-color: whitesmoke;
+		position: absolute;
+		opacity: 0;
+		width: 100%;
+		margin-top: 30%;
+		margin-bottom: 30%;
+		height: 40%;
+	}
+
+	.comprado:hover img {
+		opacity: 0.3;
+	}
+
+	.comprado:hover .card-body {
+		opacity: 1;
+	}
+
+	.card:hover img {
+		-webkit-transform: scale(1);
+		    -ms-transform: scale(1);
+		        transform: scale(1);
+	}
+
+	.totalcompra {
+		margin-top: 5%;
+		padding: 0;
+	}
+}

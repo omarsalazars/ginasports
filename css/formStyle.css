@@ -1,0 +1,26 @@
+h1 {
+	font-family: 'Dosis', sans-serif;
+}
+
+p, label, input {
+	font-family: 'Raleway', sans-serif;
+}
+
+body {
+	background-color: whitesmoke;
+}
+
+.container {
+	width: 30%;
+	background-color: white;
+	padding: 3% 2%;
+	margin-top: 2%;
+}
+
+form, p {
+	margin-left: 5%;
+}
+
+.btn {
+	width: 40%;
+}

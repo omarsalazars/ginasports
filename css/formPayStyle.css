@@ -1,0 +1,38 @@
+h1 {
+	font-family: 'Dosis', sans-serif;
+}
+
+p, label, input {
+	font-family: 'Raleway', sans-serif;
+}
+
+body {
+	background-color: whitesmoke;
+}
+
+#container {
+	background-color: white;
+}
+
+form, p {
+	margin-left: 5%;
+}
+
+.btn {
+	width: 40%;
+}
+
+#card, #paypal {
+	cursor: -webkit-grab;
+	cursor: grab;
+}
+
+#cardForm, #payForm, #shipmentForm {
+	display: none;
+}
+
+.col-center{
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}

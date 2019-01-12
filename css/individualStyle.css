@@ -1,0 +1,61 @@
+.imagen-lupa {
+	position: relative;
+	margin: 10% 20% 1% 20%;
+	background-color: transparent;
+	padding: 0;
+}
+
+.lupa {
+	position: absolute;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	cursor: none;
+	width: 15%;
+	height: 30%;
+}
+
+.grande, #datos, .miniatura, .miniatura-img {
+	margin: 0;
+	padding: 0;
+}
+
+.grande, #datos {
+	width: 50%;
+}
+
+#imgSeleccionada {
+	border: 1px solid black;
+	margin: 0;
+}
+
+.info {
+	margin: 0;
+	height: 50%;
+}
+
+.info i {
+	margin-right: 5%;
+	padding: 0;
+}
+
+
+#minivistas, .miniatura img, .info, #imgSeleccionada {
+	width: 100%;
+}
+
+.miniatura{
+	width: 30%;
+}
+
+#minivistas{
+	margin: 2em;
+}
+
+@media only screen and (max-width: 600px){
+	.miniatura {
+		width: 100%;
+	}
+}
+
+
+* {-webkit-box-sizing: border-box;box-sizing: border-box;}

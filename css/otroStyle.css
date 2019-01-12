@@ -1,0 +1,64 @@
+#encabezado a, #numpag, #numpag li a {
+    color: black;
+}
+
+#titulo, #links {
+    width: 50%;
+}
+
+#links a {
+    margin: 2%;
+    color: white;
+}
+
+#numpag {
+    margin-top: 2%;
+}
+
+#numpag li a {
+    border-top: none;
+    border-bottom: none;
+    border-left-color: black;
+    border-right-color: black;
+    -webkit-border-radius: 0;
+            border-radius: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.productos {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+#contenido {
+    margin-top: 5%;
+}
+
+.productos {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+kbd {
+    background-color: transparent;
+    color: black;
+}
+
+strike{
+    color: darkred;
+}
+
+#muestra {
+    width: 80%;
+    padding: 0;
+    height: auto;
+    margin: 5% 10%;
+    background-color: transparent;
+}
